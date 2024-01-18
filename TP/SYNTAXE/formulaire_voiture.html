@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+ <!-- Créez un formulaire en HTML renseignant les caractéristiques d'un véhicule    -->
+<!-- (poids, chevaux, vitesse de pointe, type de boite..)     -->
+<form action="./enregistrer_un _vehicule.php" method="POST">
+    <label for="voiture">Voiture</label>
+        <input type="text" name="voiture">
+    <label for="nom">Nom</label>
+        <input type="text" name="nom">
+    <label for="poids">Poids</label>
+        <input type="text" name="poids">
+    <label for="chevaux">Chevaux</label>
+        <input type="text" name="chevaux">
+
+        <input type="submit" value="Envoyer">  
+    </form>
+
+</body>
+</html>
+
+<!--   /*
+        1. Créez un formulaire en HTML renseignant les caractéristiques d'un véhicule
+        (poids, chevaux, vitesse de pointe, type de boite..)
+
+        2. Créez un script PHP `enregistrer_vehicule.php` qui simulera l'insertion
+        du véhicule en base de données.
+        Ce script affichera en réalité un message "Le véhicule a bien été ajouté en base de données"
+        seulement si tous les champs sont remplis
+        
+        Les champs à sausir sont les suivants :
+        - Nom
+        - Marque
+        - Chevaux
+        - Vitesse de pointe (en km/h)
+
+
+        3. Dans la page de confirmation, ajoutez si besoin un message
+        "Merci d'entrer les champs suivants :
+        - Chevaux
+        - Vitesse de pointe
+        (et les autres champs manquants)"
+
+     */  -->
